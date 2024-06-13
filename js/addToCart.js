@@ -37,7 +37,7 @@ function addToCart(event) {
       const newProduct = {title:product, quantity: 1, Price:price};
       productLS.push(newProduct);
     
-    }
+    } 
 
     localStorage.setItem('productos',JSON.stringify(productLS));
   }
