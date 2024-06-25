@@ -88,14 +88,10 @@ btnTrash.forEach((trash)=>{
 //total de los productos
 const totalPrice= document.querySelector(".total"),
 
-
 totalProduct = productLS.reduce((acc, el)=> acc + el.Price * el.quantity,0 )
 
 totalPrice.innerHTML=`total $${totalProduct.toFixed(2)}`;
 }
-
-    
- 
 
 if(!productLS.length){
     const emptyCart = document.createElement("div")
