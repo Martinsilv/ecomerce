@@ -1,8 +1,9 @@
 const bntMen = document.getElementById("category-hombre"),
-btnWoman = document.getElementById("category-mujer");
-
+btnWoman = document.getElementById("category-mujer"),
+product = productos.categorie;
 const showMeMen = ()=>{
-    if (category === hombres) {
+
+    if (product === hombres) {
         console.log("hola")
         
     }
