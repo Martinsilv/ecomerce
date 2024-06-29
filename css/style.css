@@ -34,6 +34,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .card{
+  display: block;
   margin: 3rem;
   height:max-content 100px;
 }
