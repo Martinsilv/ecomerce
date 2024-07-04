@@ -4,7 +4,7 @@ product = productos.categorie;
 const showMeMen = ()=>{
 
     if (product === hombres) {
-        console.log("hola")
+    
         
     }
 }

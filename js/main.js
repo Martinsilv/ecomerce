@@ -14,6 +14,7 @@ const $fragment = document.createDocumentFragment();
        <button type="button" class="btn btn-secondary" >Añadir al carrito</button>
      </div>
    </div>`
+      
    
 
    $fragment.appendChild(conteiner);
